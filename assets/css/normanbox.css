@@ -1,0 +1,79 @@
+body {
+    background-color: #fafafa;
+    color: #666;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #fff
+}
+
+
+h2 { 
+    color: #cc1920;
+    font-weight: 800;
+    font-size: 16px;
+    text-align:center;  
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    padding: 1em;            
+ }
+
+p,li  {
+    line-height: 160%;
+}
+
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+header #logo {
+    background: #fff url("../images/logo-normanbox.png") no-repeat -100px -50px;
+    display:block;
+    height:120px;
+}
+
+#content-wrapper {
+    margin: 0 auto;    
+    max-width: 640px;
+    padding:25px
+}
+
+#content-wrapper .photo-circle { 
+    box-shadow: 0 0 30px #aaa;
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    margin: 0 0 1em 1em;
+    display:block;
+    float: right;    
+}
+
+
+#my-tools {
+    overflow: hidden;
+   
+}
+
+#my-tools li {
+    width:50%;
+    float: left;        
+    
+}
+
+
+
+.contact-me {
+    text-align: center;
+    padding:25px; 
+}
+
+.contact-me a {
+   color: #cc1920;
+}
+
+.contact-me a:hover {
+    color: #dd0000
+}
+
